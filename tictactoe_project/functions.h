@@ -1,0 +1,11 @@
+int main_menu(int Game_index);
+void savingGAMEtofile();
+void current_stats();
+int loadsavedGames(char name[100],char *P1,char *P2);
+int openfiles();
+int existing_files(char name[100]);
+void displayboard(char square[]);
+void mark_board(char square[], int choice, char mark);
+int check_for_win(char square[]);
+int minimax(char square[], int player);
+int compmove(char square[], int player, int winner_name);
